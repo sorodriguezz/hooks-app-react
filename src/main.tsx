@@ -1,12 +1,12 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-import { PokemonPage } from "./03-examples/PokemonPage";
+import { FocusScreen } from "./04-useRef/FocusScreen";
 import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     {/* <HooksApp /> */}
-    <PokemonPage />
+    <FocusScreen />
   </StrictMode>
 );
